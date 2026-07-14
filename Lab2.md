@@ -1,4 +1,4 @@
-Lab 2: Vibe Coding a Personal Portfolio
+Lab 2: Vibe Coding a Personal Portfolio (Without my personal data)
 
 This document contains the deliverables for Lab 2, where I utilized "Vibe Coding" via Generative AI to create a personal portfolio website.
 
@@ -8,7 +8,7 @@ Role: Data Analyst
 
 Strengths: Data Visualization, Statistical Analysis, Problem Solving
 
-Vibe/Theme: Modern, analytical, clean, and high-tech (Dark slate & Neon Blue themes), reflecting my focus on turning raw data into actionable insights.
+Vibe/Theme: Modern, analytical, clean, and high-tech, reflecting my focus on turning raw data into actionable insights.
 
 2. Generating Assets (Image Generation)
 
