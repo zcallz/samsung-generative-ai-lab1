@@ -1,0 +1,32 @@
+# Lab 2: Designing Specific Tasks with Structured Prompts
+
+Bu laboratuvar çalışması, yapılandırılmış prompt mühendisliği döngüsünü kullanarak kişiselleştirilmiş bir Yapay Zeka Çalışma Koçu (AI Study Coach) tasarlama sürecini içermektedir.
+
+## Lab 2-1, 2-2 & 2-3: Structured Prompt Design (AI Study Coach)
+Amacım, ileri düzey ekonometrik modeller (CS-ARDL, panel veri analizi) ve makine öğrenmesi algoritmaları (LightGBM) üzerine çalışırken bana rehberlik edecek bir koç tasarlamak. Bunun için rol, bağlam, görev ve format bileşenlerini birleştiren yapılandırılmış bir komut hazırladım.
+
+**İlk Yapılandırılmış Prompt (V1):**
+> "Kıdemli bir Veri Bilimi Eğitmeni ve Ekonometrist rolünü üstlen. İleri düzey panel veri analizi yöntemleri ve ağaç tabanlı makine öğrenmesi modelleri üzerine çalışıyorum. Bana her hafta için bir çalışma planı oluştur. İstatistiksel testlerin (örneğin yatay kesit bağımlılığı) teorik arka planını açıkla ve R ile Python'da kullanabileceğim örnek kod parçacıkları sağla. Bilgileri tablolar ve madde işaretleri kullanarak sun."
+
+---
+
+## Lab 2-4: Model Execution and 1st Result Check
+**İlk Çalıştırma Sonucu (Değerlendirme):**
+Yapay zeka modeli, talep edilen haftalık planı bir tablo halinde sundu ve genel olarak R ile Python kodlarını üretti. Ancak bazı eksiklikler tespit edildi:
+* Kod parçacıkları çok temel düzeydeydi ve modellerin hiperparametre optimizasyonu veya varsayım testlerinin nasıl yorumlanacağı konusunda yetersiz kaldı.
+* Öğrenmeyi test edecek interaktif bir soru-cevap mekanizması yoktu, sadece bilgiyi tek taraflı sundu.
+
+---
+
+## Lab 2-5: Prompt 1st Tuning and Re-execution
+Modelin eksikliklerini gidermek için komutu daha kısıtlayıcı ve etkileşimli hale getirdim.
+
+**İyileştirilmiş Prompt (V2):**
+> "Kıdemli bir Veri Bilimi Eğitmeni ve Ekonometrist rolünü üstlen. İleri düzey panel veri analizi yöntemleri (CS-ARDL, Driscoll-Kraay) ve makine öğrenmesi algoritmaları (LightGBM) üzerine pratik yapıyorum. Bana adım adım bir çalışma koçluğu yapacaksın:
+> 1. Konuyu anlatırken daima gerçek dünyadan bir veri seti senaryosu kur.
+> 2. R ve Python kod parçacıklarını verirken, kodun çıktısındaki p-değerlerini ve katsayıları nasıl yorumlamam gerektiğini satır içi (inline) yorumlarla açıkla.
+> 3. Her konunun sonunda bana o konuyla ilgili zorlayıcı, mülakat seviyesinde bir senaryo sorusu sor ve ben cevaplayana kadar diğer konuya geçme.
+> Lütfen ilk dersimize 'Zaman serilerinde durağanlık ve birim kök testleri' konusuyla başla."
+
+**Sonuç ve Optimizasyon:**
+İyileştirilmiş komut sonrasında model, yalnızca genel bilgi vermekle kalmayıp dinamik bir eğitmene dönüştü. Kod açıklamaları detaylandı ve zorunlu soru-cevap koşulu sayesinde öğrenme süreci interaktif bir hale geldi.
