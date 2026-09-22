@@ -1,0 +1,53 @@
+# Lab: Prompt Engineering Basics - Bad vs. Improved Prompt Comparison
+
+This document outlines the prompt engineering experiment comparing a generic (bad) prompt with an optimized (improved) prompt based on a specific data analytics topic.
+
+## Personal Topic Selection
+**Topic:** Econometric modeling of renewable energy's impact on carbon emissions using panel data analysis.
+
+---
+
+## Step 1 & 2: Executing the "Bad Prompt"
+
+**The Bad Prompt:**
+> "Yenilenebilir enerjinin karbon emisyonlarına etkisini analiz eden bir veri bilimi projesi nasıl yapılır?" *(How do I do a data science project analyzing the impact of renewable energy on carbon emissions?)*
+
+**AI Output (Summary):**
+The AI provided a very generic, high-level list of steps:
+1. Data Collection (Find data from World Bank, etc.)
+2. Data Cleaning (Handle missing values)
+3. Exploratory Data Analysis (Draw some charts)
+4. Modeling (Use regression or machine learning)
+5. Conclusion (Report your findings)
+
+**Limitations Identified:**
+* No specific context about the statistical methods required.
+* Lacks designated tools (R, Stata, Python).
+* Does not specify the types of economic regions (e.g., G7 or E7 countries) or advanced econometric models like CS-ARDL.
+* The output is too basic for an advanced data analyst.
+
+---
+
+## Step 3: Rewriting the Improved Prompt and A/B Comparison
+
+**The Improved Prompt:**
+> "Kıdemli bir veri analisti ve ekonometrist olarak davran. G7 ve E7 ülkeleri için 'Ekonomik Büyüme ve Yenilenebilir Enerjinin Karbon Emisyonlarına Etkisi' konulu karşılaştırmalı bir panel veri analizi projesi yürütüyorum. Bana R ve Stata kullanarak CS-ARDL ve Driscoll-Kraay yöntemleriyle bu modeli nasıl kuracağım konusunda adım adım, teknik bir rehber hazırla. Lütfen istatistiksel testleri ve dikkat edilmesi gereken varsayımları da (örneğin yatay kesit bağımlılığı) dahil et."
+
+**AI Output (Summary):**
+The AI provided a highly structured, technical guide:
+1. **Pre-estimation Tests:** Instructions on testing for Cross-Sectional Dependence (CD test) and panel unit root tests (e.g., CIPS) in Stata.
+2. **Model Specification:** Step-by-step logic for setting up the CS-ARDL model in R to handle heterogeneous slopes and unobserved common factors.
+3. **Robust Standard Errors:** Guidance on applying Driscoll-Kraay standard errors in Stata to correct for spatial and temporal dependence.
+4. **Interpretation:** How to interpret long-run vs. short-run coefficients in the context of 2030 sustainability projections.
+
+### A/B Comparison Analysis
+
+| Criteria | Bad Prompt | Improved Prompt |
+| :--- | :--- | :--- |
+| **Role/Persona** | None assigned | Senior Data Analyst & Econometrician |
+| **Task Specificity** | Vague ("how to do a project") | Specific ("step-by-step technical guide for panel data") |
+| **Context & Constraints** | Missing | Defined regions (G7/E7), specific methodologies (CS-ARDL, Driscoll-Kraay), and tools (R, Stata) |
+| **Output Quality** | Superficial, Wikipedia-style summary | Highly actionable, technically accurate, ready to be implemented in a real workflow |
+
+**Conclusion:** 
+Providing role, context, specific methodologies, and tool constraints drastically transforms the AI from a general search engine into a specialized technical assistant.
