@@ -1,32 +1,25 @@
-# Lab 2: Designing Specific Tasks with Structured Prompts
+# Lab 2: Detailed Prompt Engineering Practice
 
-Bu laboratuvar çalışması, yapılandırılmış prompt mühendisliği döngüsünü kullanarak kişiselleştirilmiş bir Yapay Zeka Çalışma Koçu (AI Study Coach) tasarlama sürecini içermektedir.
+Bu doküman, yapılandırılmış komut (prompt) mühendisliği döngüsünün Lab 2-1'den Lab 2-5'e kadar olan aşamalarındaki görevleri ve aktivite yansımalarını içermektedir. Odak noktamız, veri analitiği ve ileri düzey istatistik çalışmaları için gerçekçi bir "Yapay Zeka Çalışma Koçu" (AI Study Coach) tasarlamaktır.
 
-## Lab 2-1, 2-2 & 2-3: Structured Prompt Design (AI Study Coach)
-Amacım, ileri düzey ekonometrik modeller (CS-ARDL, panel veri analizi) ve makine öğrenmesi algoritmaları (LightGBM) üzerine çalışırken bana rehberlik edecek bir koç tasarlamak. Bunun için rol, bağlam, görev ve format bileşenlerini birleştiren yapılandırılmış bir komut hazırladım.
+## Lab 2-1: Step-by-Step Prompt Element Practice
+Bu aşamada belirsiz bir komutun yüksek kaliteli bir çıktıya dönüşümünü deneyimledik.
+* **Activity Reflection:** "I felt the biggest 'quality jump' at Step **[Context/Constraints]**, because **it forced the AI to stop giving generic advice and specifically tailor the plan to a rigorous statistics and data science workload**."
+* "Also, The element I will use most often is **[Format Requirements]** because **I need the study schedules and code snippets presented in clean, easy-to-read markdown tables**."
 
-**İlk Yapılandırılmış Prompt (V1):**
-> "Kıdemli bir Veri Bilimi Eğitmeni ve Ekonometrist rolünü üstlen. İleri düzey panel veri analizi yöntemleri ve ağaç tabanlı makine öğrenmesi modelleri üzerine çalışıyorum. Bana her hafta için bir çalışma planı oluştur. İstatistiksel testlerin (örneğin yatay kesit bağımlılığı) teorik arka planını açıkla ve R ile Python'da kullanabileceğim örnek kod parçacıkları sağla. Bilgileri tablolar ve madde işaretleri kullanarak sun."
+## Lab 2-2: Creating My Own AI Study Coach
+Bu adımda, planda kalmayı (adherence) ve gerçekçiliği merkeze alan bir çalışma koçu senaryosu tasarlandı.
+* **Activity Reflection:** "I think adding a **[Buffer Time / Intentional Flexibility constraint]** is key to making this plan realistic because **coding and econometric modeling tasks often encounter unexpected bugs or data errors that delay the schedule**."
 
----
+## Lab 2-3: Structured Prompt Design
+Çalışma koçu talimatları hiyerarşik bir ana şablon (Master Template) haline getirildi.
+* **Activity Reflection:** "I intentionally designed the **[Constraints Section]** to **limit the heavy analytical study blocks to a maximum of 3 hours a day** because **preventing mental fatigue is crucial when dealing with complex mathematical proofs and algorithms**."
+* "The reason I chose **[Specific Rule: Mandatory Pomodoro Breaks]** for the **[Instructions Section]** was to prevent the AI from **generating a continuous, unbroken 5-hour study block that is impossible for a human to execute**."
 
 ## Lab 2-4: Model Execution and 1st Result Check
-**İlk Çalıştırma Sonucu (Değerlendirme):**
-Yapay zeka modeli, talep edilen haftalık planı bir tablo halinde sundu ve genel olarak R ile Python kodlarını üretti. Ancak bazı eksiklikler tespit edildi:
-* Kod parçacıkları çok temel düzeydeydi ve modellerin hiperparametre optimizasyonu veya varsayım testlerinin nasıl yorumlanacağı konusunda yetersiz kaldı.
-* Öğrenmeyi test edecek interaktif bir soru-cevap mekanizması yoktu, sadece bilgiyi tek taraflı sundu.
-
----
+Oluşturulan yapılandırılmış komut test edildi ve "Gerçeklik Kuralları"na göre değerlendirildi.
+* **Activity Reflection:** "Initially, the AI **[Behavior/Mistake: packed too many intensive topics into a single day without accounting for review time]**, so I plan to refine the **[Negative Prompt / Constraints Section]** by **explicitly forbidding more than two new statistical concepts per day** to improve accuracy."
 
 ## Lab 2-5: Prompt 1st Tuning and Re-execution
-Modelin eksikliklerini gidermek için komutu daha kısıtlayıcı ve etkileşimli hale getirdim.
-
-**İyileştirilmiş Prompt (V2):**
-> "Kıdemli bir Veri Bilimi Eğitmeni ve Ekonometrist rolünü üstlen. İleri düzey panel veri analizi yöntemleri (CS-ARDL, Driscoll-Kraay) ve makine öğrenmesi algoritmaları (LightGBM) üzerine pratik yapıyorum. Bana adım adım bir çalışma koçluğu yapacaksın:
-> 1. Konuyu anlatırken daima gerçek dünyadan bir veri seti senaryosu kur.
-> 2. R ve Python kod parçacıklarını verirken, kodun çıktısındaki p-değerlerini ve katsayıları nasıl yorumlamam gerektiğini satır içi (inline) yorumlarla açıkla.
-> 3. Her konunun sonunda bana o konuyla ilgili zorlayıcı, mülakat seviyesinde bir senaryo sorusu sor ve ben cevaplayana kadar diğer konuya geçme.
-> Lütfen ilk dersimize 'Zaman serilerinde durağanlık ve birim kök testleri' konusuyla başla."
-
-**Sonuç ve Optimizasyon:**
-İyileştirilmiş komut sonrasında model, yalnızca genel bilgi vermekle kalmayıp dinamik bir eğitmene dönüştü. Kod açıklamaları detaylandı ve zorunlu soru-cevap koşulu sayesinde öğrenme süreci interaktif bir hale geldi.
+İlk çalıştırmadaki hatalar ve komut sapmaları (instruction drift) düzeltilerek şablon iyileştirildi.
+* **Activity Reflection:** "By adjusting the **[Verification / Output Logic Section]**, I was able to solve the problem of **unrealistic daily task loads**, resulting in a plan that is **highly flexible, automatically shifts uncompleted tasks to the weekend, and is easy to adhere to during intensive study periods**."
