@@ -1,0 +1,23 @@
+# Lab 4: General Prompt vs. Step-by-Step Instructions
+
+Bu laboratuvar çalışmasında; mantıksal sıralamanın etkisini test etmek amacıyla "Genel Komut" (Prompt A) ile "Adım Adım Talimatlar" (Prompt B) içeren komut yapılarını, veri analitiği senaryoları üzerinden karşılaştırdık.
+
+## Lab 4-1: Understanding the Task and Scenario
+Çok aşamalı mantıksal işlemler gerektiren bir görevi, yapay zekaya sunmadan önce "Gizli Adımlarına" ayırdık.
+* **Activity Reflection:** "To solve this task perfectly, the AI must first **[clean and preprocess the raw datasets]**, then **[execute the pre-estimation tests like cross-sectional dependence]**, and finally **[run the CS-ARDL econometric model to generate accurate coefficients]**."
+
+## Lab 4-2: Designing and Executing Prompt A
+Tüm talimatları tek bir blok halinde vererek (Genel Komut) yapay zekanın "Bilgi Aşırı Yüklemesi" (Information Overload) altındaki performansını test ettik.
+* **Activity Reflection:** "Prompt A produced a result that felt **[rushed and structurally flawed]** because the AI [Missed] the specific constraint of **[handling missing values and structural breaks before attempting to run the regression model]**."
+
+## Lab 4-3: Designing and Executing Prompt B
+Yapay zekanın mantıksal akıl yürütme sürecini (Chain of Thought) desteklemek için görevi kilometre taşlarına bölen adım adım talimatlar hazırladık.
+* **Activity Reflection:** "By using Step-by-Step instructions, the AI was able to **[show its intermediate calculations and statistical assumptions at each stage]**, which was missing in the general approach of Prompt A."
+
+## Lab 4-4: Comparing and Summarizing Results
+Hangi tekniğin daha yüksek profesyonel doğruluk sağladığını bulmak için çıktıları yan yana analiz ettik.
+* **Activity Reflection:** "The biggest difference was **[the traceability of the AI's internal logic]**. While Prompt A felt like a **[black-box guess]**, Prompt B provided a **[highly reliable, verifiable]** solution because it forced the AI to **[prove its reasoning before moving to the next analytical step]**."
+
+## Lab 4-5: Summarizing A/B Usage Criteria & My Own Rule
+Gelecekteki iş akışlarımızda "Genel" ve "Adım Adım" komutları tam olarak ne zaman kullanacağımızı tanımladık.
+* **Activity Reflection:** "I will use Prompt A when **[I need quick brainstorming or high-level summaries where formatting and mathematical accuracy are not critical]**, and Prompt B when **[building data pipelines, writing complex R/Python scripts, or conducting academic panel data analysis]** to ensure my AI outcomes are always **[logically sound, mathematically accurate, and completely reproducible]**."
