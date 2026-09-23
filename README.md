@@ -1,15 +1,14 @@
-<img width="975" height="532" alt="image" src="https://github.com/user-attachments/assets/21c0188e-c23d-4a33-8e34-f7af37378959" /># samsung-generative-ai-lab1
+# Generative AI & Prompt Engineering Assignments
 
-Ödev 1
+Bu depo, Samsung Innovation Campus "Generative AI ve Prompt Engineering" eğitimi kapsamında tamamladığım laboratuvar çalışmalarını ve projeleri içermektedir. 
 
+Tüm prompt mühendisliği süreçleri ve yapay zeka senaryoları; **veri analitiği, ileri düzey istatistik ve ekonometrik modelleme** perspektifiyle profesyonel bir düzeyde tasarlanmış ve test edilmiştir.
 
+## 📂 Depo İçeriği
 
-Orijinal Metin:
-Data science, statistical modeling, and advanced analytics are becoming strictly essential in the transition to renewable energy. By applying econometric models like comparative panel data analysis, researchers can evaluate the complex relationships between economic growth, renewable energy consumption, and carbon emissions across global economies like the G7 and E7. These data-driven insights allow policymakers to optimize grid distributions and make sustainable decisions.
+Bu depodaki çalışmalar iki ana kategoriye ayrılmıştır:
 
+* **`/md files/` (Analiz ve Raporlar):** Lab 1'den Lab 4'e kadar olan prompt mühendisliği A/B testleri, yapılandırılmış komut (structured prompt) şablonları, RAG konsept analizleri ve adım adım mantıksal akış (Chain of Thought) raporlarının şık ve okunaklı Markdown formatları.
+* **`/files/` (Proje Çıktıları ve Sunumlar):** Vibe Coding ile oluşturulmuş çalışan portfolyo web sitesi (HTML), Endüstriye Özel Yapay Zeka Modelleri sunumları (PDF/HTML) ve pazarlama odaklı kişiselleştirme (Content Marketing) ödevlerine ait görsel/doküman çıktıları. 
 
-
-
-
-Özet:
-Data science and econometric models, particularly panel data analysis, are crucial for understanding the impact of economic growth on carbon emissions and optimizing renewable energy strategies for sustainable global policymaking.
+**Not:** Projelerdeki senaryolar, gerçek dünya veri bilimi iş akışlarına ve G7/E7 ülkeleri yenilenebilir enerji projeksiyonları gibi akademik/teknik konulara dayanmaktadır.
