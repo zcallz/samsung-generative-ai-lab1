@@ -8,7 +8,7 @@ Bu rapor, seçilen ürün grubu (Jean) için temel 5C analizini ve marka özelin
 
 ### Jean (Örnek Marka: Mavi)
 * **Customers (Müşteriler):** Kaliteli, vücuduna tam oturan (perfect fit) ve trendleri yansıtan günlük giyim (casual) arayan gençler ve genç profesyoneller.
-* **Company (Şirketiniz):** Türkiye pazarında lider, globalde bilinirliği olan, güçlü CRM (Kartuş Programı) altyapısına ve yerel kültürü anlayan iletişim diline sahip marka.
+* **Company (Şirketiniz):** Türkiye pazarında lider, globalde bilinirliği olan, güçlü CRM (Kartuş Üyelik Programı) altyapısına ve yerel kültürü anlayan iletişim diline sahip marka.
 * **Competitors (Rakipleriniz):** Levi's, Colin's, LTB ve genel "fast-fashion" markaları (Zara, H&M, LCW).
 * **Collaborators (İş Ortakları):** Kumaş (denim) tedarikçileri, AVM yönetimleri, e-ticaret pazaryerleri (Trendyol) ve pazarlama/reklam ajansları.
 * **Context (Bağlam):** Hibrit çalışma modelinin casual giyimi standartlaştırması, sürdürülebilirlik (su tasarruflu üretim) beklentileri ve enflasyonist ortamda fiyat/fayda dengesinin önemi.
