@@ -5,3 +5,6 @@ Data science, statistical modeling, and advanced analytics are becoming strictly
 
 ## Özet
 > Data science and econometric models, particularly panel data analysis, are crucial for understanding the impact of economic growth on carbon emissions and optimizing renewable energy strategies for sustainable global policymaking.
+
+
+<img width="975" height="532" alt="image" src="https://github.com/user-attachments/assets/b3808ff2-7e0d-433f-a1e9-75b6aae7a369" />
